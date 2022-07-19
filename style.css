@@ -1,0 +1,75 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  background-color: white;
+  position: relative;
+  display: block;
+  width: 16em;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.tasks {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+.tasks #buton {
+  position: relative;
+  padding: 0.4em;
+}
+#input {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 0.3em;
+  font-size: 90%;
+}
+#clear {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 15em;
+  border: 1px solid white;
+  background-color: rgb(255, 0, 0);
+  padding: 0.5em;
+  color: white;
+}
+.list-group-item {
+  position: relative;
+  text-align: center;
+}
+.h1 {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 1.9em;
+}
+#buton {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  font-size: 83%;
+  top: 0.9em;
+  width: 10em;
+  color: white;
+  padding: 0.3em;
+  background-color: rgb(0, 0, 250);
+}
+.please {
+  position: relative;
+  text-align: center;
+  color: red;
+  font-size: 1em;
+}
+.if {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 0.9em;
+  padding: 0.6em;
+}
+@media (max-width:260px) {body {background-color: red;}}
